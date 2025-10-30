@@ -1,0 +1,32 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Java / Maven
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Node / Angular
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+
+# Docker
+**/.docker/
+
+# Misc
+*.iml
+*.tmp
+
+
